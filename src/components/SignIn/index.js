@@ -30,7 +30,6 @@ const config = {
         <Header as="h2" textAlign="center">
         Project Blue Athlete
         </Header>
-        <
         <SignInForm />
       </Grid.Column>
     </Grid>
@@ -84,11 +83,7 @@ class SignInForm extends React.Component {
         const isInvalid = password === '' || email === '';
     
         return (
-
-
-        
-        <p class="divStyle">
-          <div>
+          <div class={divStyle}>
             <Divider horizontal>Signin</Divider>
             {error && (
               <Message negative>
@@ -122,7 +117,7 @@ class SignInForm extends React.Component {
               {//<PasswordForgetLink />
               }
             </Form>
-          </div></p>
+          </div>
         );
       }
       }
