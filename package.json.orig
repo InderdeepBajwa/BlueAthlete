@@ -6,11 +6,33 @@
     "firebase": "^5.8.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    "react-scripts": "2.1.8"
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.8",
     "recompose": "^0.30.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.86.0"
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   },
   "scripts": {
     "start": "react-scripts start",
