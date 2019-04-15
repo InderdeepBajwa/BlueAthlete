@@ -1,0 +1,20 @@
+.signForm {
+    width: 40%;
+    margin: auto auto;
+}
+
+.signForm input {
+    display: block;
+    width: 60%;
+    margin: auto auto;
+    padding: 20px;
+    margin-top: 1.3em;
+}
+
+.centerIt {
+    text-align: center;
+}
+
+.error {
+    color: red;
+}

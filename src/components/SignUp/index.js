@@ -15,7 +15,7 @@ const INITIAL_STATE = {
 };
 
 const SignUpPage = () => (
-    <div>
+    <div class="centerIt">
         <h1>SignUp</h1>
         <SignUpForm />
     </div>
@@ -67,7 +67,7 @@ class SignUpFormBase extends Component {
 
         return (
             // TODO: Implement HTML form here
-            <form onSubmit={this.onSubmit}>
+            <form onSubmit={this.onSubmit} class="signForm">
                 <input
                     name="username"
                     defaultValue={username}
@@ -96,7 +96,7 @@ class SignUpFormBase extends Component {
                     type = "password"
                     placeholder="Confirm Password"
                 />
-                <button disabled={isInvalid} type="submit">Sign Up</button>
+                <button disabled={isInvalid} type="submit" class="big-button">Sign Up</button>
 
         {
             // Error handling
